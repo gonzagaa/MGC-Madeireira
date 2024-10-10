@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGC - Qualidade que transforma madeira em confiança.</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="./assets/tracosDamatta.webp" type="image/x-icon">
+</head>
+<body>
+
+    <nav id="navigation" class="">
+
+        <div class="wrapper">
+
+            <a class="logo" href="#home">
+                <img src="./assets/LOGO MADEIREIRA.png" alt="">
+            </a>
+            
+            <div class="menu">
+                <ul>
+                    <li><a onclick="closeMenu()" href="#home">Home</a></li>
+                    <li><a onclick="closeMenu()" href="#sobre">Sobre nós</a></li>
+                    <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+                    <li><a onclick="closeMenu()" href="#suporte">Contato</a></li>
+                    
+                </ul>
+
+                <a href="#home"><img class="logo" onclick="closeMenu()" src="./assets/logo DAMATTA escrita.svg" alt=""></a>
+             </div>
+
+            <button 
+            aria-expanded="false"
+            aria-label="Abrir menu"
+            onclick="openMenu()" 
+            class="open-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 20H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 12H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18 28L30 28" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 
+            </button>
+            <button
+            aria-expanded="true"
+            aria-label="Fechar menu"
+            onclick="closeMenu()" 
+            class="close-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+            </button>
+
+        </div>
+           
+    </nav>
+
+    <header id="home">        
+        <div class="wrapper">
+            <div class="content">
+                <div class="text">
+                    <div class="text-content">
+                        <h1 data-aos="fade-up-left">Qualidade que transforma <span>madeira</span> em <span>confiança</span>.</h1>
+
+                        <p data-aos="fade-up-left">Com <span>tradição</span>, <span>inovação</span> e um rigoroso controle de qualidade, garantimos uma entrega com <span>durabilidade</span> e <span>confiança</span>!</p>
+                        <div data-aos="fade-up-left" class="buttons">
+                            <a href="#suporte"><button>Saiba mais</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="interactive-image" class="image">
+                    <img class="desktop" src="./assets/mgc bg desktop.webp" alt="">
+                    <img class="mobile" src="./assets/mgc bg mobile.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="services">
+        <div class="wrapper">
+            <div class="content">
+                <header data-aos="fade-up">
+                    <span class="span">SERVIÇOS</span>
+                    <h2>Conheça nossos serviços:</h2>
+                </header>
+
+                <div class="cards">
+                    <div data-aos="fade-up-left" class="card">
+                        <ion-icon name="checkmark-done-circle"></ion-icon>
+                        <h3>Madeira para Construção</h3>
+                        <p>Produtos resistentes e duráveis, perfeitos para construções de pequeno e grande porte.</p>
+                    </div>
+
+                    <div data-aos="fade-up-left" class="card">
+                        <ion-icon name="checkmark-done-circle"></ion-icon>
+                        <h3>Móveis Sob Medida</h3>
+                        <p>Peças exclusivas, feitas com precisão e acabamento impecável, para residências e comércios.</p>
+                    </div>
+
+                    <div data-aos="fade-up-left" class="card">
+                        <ion-icon name="checkmark-done-circle"></ion-icon>
+                        <h3>Acessórios em Madeira</h3>
+                        <p>Desde detalhes decorativos até estruturas robustas, nossa madeira é sinônimo de versatilidade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="sobre">
+        <div class="wrapper">
+            <div class="content">
+                <header data-aos="fade-up">
+                    <span class="span">Sobre</span>
+                    <h2>Conheça a nossa empresa</h2>
+                </header>
+
+                <div data-aos="fade-up-right" class="container">
+                    <div class="text">
+                        <h3>MGC Madeireira</h3>
+                        <p>A <span>MGC Madereira</span> nasceu do compromisso com a <span>excelência e a paixão pela madeira</span>. Com <span>anos de experiência no mercado</span>, nos destacamos pela <span>qualidade</span> dos nossos produtos e pelo <span>respeito ao meio ambiente</span>. Valorizamos cada etapa do processo, da escolha cuidadosa da matéria-prima ao acabamento final, combinando <span>técnicas tradicionais com tecnologia de ponta</span>.</p>
+                    </div>
+
+                    <div data-aos="fade-up-left" class="image">
+                        <img src="./assets/sobre mgc.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="suporte">
+        <div class="wrapper">
+            <div class="content">
+                <div data-aos="fade-up-left" class="whatsapp">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+    
+                    <p>Receba suporte <span>diretamente pelo seu whatsapp.</span></p>
+                </div>
+    
+                <div data-aos="fade-up" class="image">
+                    <img src="./assets/suporte mgc.webp" alt="">
+                </div>
+    
+                <div data-aos="fade-up-right" class="ajuda">
+                    <span><ion-icon name="flash-outline"></ion-icon> Suporte rápido</span>
+                    <h3>Precisa de <span>ajuda?</span></h3>
+                    <p>Nossa equipe <span>está pronta</span> para conversar com você!</p>
+                    <a target="_blank" href="https://wa.link/x0f801"><button>Entrar em contato</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sustentabilidade">
+        <div class="wrapper">
+            <div class="content">
+                
+
+                <div data-aos="fade-up-right" class="container">
+                    <div class="text">
+                        <header data-aos="fade-up">
+                            <span class="span">Sustentabilidade</span>
+                            <h2>Aqui, sustentabilidade é mais do que uma prática!</h2>
+                        </header>
+                        <p>Na MGC Madeireira, Utilizamos madeira de <span>fontes renováveis</span> e seguimos <span>rigorosos padrões de preservação ambiental</span>. Nosso processo produtivo <span>respeita o ciclo natural das florestas</span>, e buscamos constantemente novas formas de <span>reduzir o impacto ambiental</span>.
+
+                        Trabalhamos com <span>fornecedores certificados</span> e engajados em práticas de <span>reflorestamento</span>, garantindo que cada peça de madeira que você recebe seja fruto de uma <span>cadeia produtiva responsável</span> e sustentável. A MGC Madereira investe no futuro do planeta e na <span>preservação para as próximas gerações</span>.</p>
+                    </div>
+
+                    <div data-aos="fade-up-left" class="image">
+                        <img src="./assets/sustentabilidade.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="wrapper">
+            <div data-aos="flip-up" class="content">
+                <img data-aos="fade-up" class="bg" src="./assets/bg arvores mgc.webp" alt="">
+                <span data-aos="fade-up" class="span">CONTATO</span>
+                <h2 data-aos="fade-up">Quer saber mais sobre nossos produtos ou solicitar um orçamento? <span>Entre em contato conosco!</span></h2>
+                <p data-aos="fade-up">Estamos prontos para responder suas dúvidas e oferecer a solução ideal para o seu projeto.
+                Fale conosco hoje mesmo e descubra como a MGC Madereira pode transformar suas ideias em realidade</p>
+                <div data-aos="fade-up" class="button"><a href="#"><button>Entrar em contato</button></a></div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="content">
+                <img class="logo" src="./assets/LOGO MADEIREIRA.png" alt="">
+
+                <div class="navigation">
+                    <h3>Navegação</h3>
+                    <p><a href="#home">Home</a></p>
+                    <p><a href="#sobre">Sobre</a></p>
+                    <p><a href="#services">Serviços</a></p>
+                    <p><a href="#suporte">Contato</a></p>
+                </div>
+    
+                <div class="contato">
+                    <h3>Conecte-se conosco</h3>
+                    <p>endereco</p>
+                    <p>email</p>
+                    <p><a target="_blank" href="tel:+55-64-93442-2520">numero</a></p>
+                </div>
+    
+                <div class="redes-sociais">
+                    <h3>Social</h3>
+                    <div class="icons">
+                        <a target="_blank" href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        <a target="_blank" href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section id="author">
+        <div class="wrapper">
+            <div class="content">
+                <p>© Todos os direitos reservados - MGC Madeireira</p>
+
+                <a target="_blank" href="https://www.instagram.com/lsbdigital/">
+                    <p class="author">
+                        Desenvolvido por LSB DIGITAL
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration: 1500,
+            }
+        );
+      </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html> 
