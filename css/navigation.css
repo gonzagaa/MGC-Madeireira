@@ -154,8 +154,8 @@ body.menu-expanded .menu {
 
   border-radius: 0 0 0 3rem;
 
-  border-left: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
+  border-left: 1px solid var(--green);
+  border-bottom: 1px solid var(--green);
 }
 
 .menu ul:nth-child(1) {

@@ -5,8 +5,8 @@
     overflow: hidden;
     min-height: 100vh;
 
-
-    position: relative;
+    background: #1d1d1d;
+    position: relative; 
     z-index: 2;
 }
 
