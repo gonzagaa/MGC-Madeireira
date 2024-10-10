@@ -133,7 +133,7 @@ body.menu-expanded .menu {
   top: 0;
   left: 40%;
   
-  background: var(--gray);
+  background: var(--bg-green);
 
   width: 60vw;
   height: max-content;
